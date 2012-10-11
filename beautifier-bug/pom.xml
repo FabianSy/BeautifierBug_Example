@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>beautifier.bug</groupId>  
+  <artifactId>beautifier-bug</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Beautifier Bug</name>
+  
+  <dependencies>
+  
+        <dependency>
+            <groupId>org.hybridlabs</groupId>
+            <artifactId>hybridlabs-beautifier-core</artifactId>
+            <version>2.1.1</version>
+        </dependency>  
+        
+  </dependencies>
+  
+  <repositories>
+  <repository>  
+    <id>fornax-platform</id>  
+    <name>fornax-platform</name>  
+    <url> http://fornax-platform.org/nexus/content/repositories/public/</url>  
+  </repository> 
+</repositories>
+  
+  
+</project>

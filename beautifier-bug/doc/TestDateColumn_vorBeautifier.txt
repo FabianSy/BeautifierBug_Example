@@ -1,0 +1,16 @@
+package columns;
+
+/**
+ * Definiert die Tabellenspalten für die Entität {@link TestDate}.
+ */      
+
+@de.dummy.table.I18nPropertyClass(de.dummy.entity.view.TestDateI18nProperties.class)
+public enum TestDateColumn implements de.dummy.table.Column<de.dummy.entity.model.TestDate> {            
+    @de.dummy.table.de.dummy.table.ColumnBinding(propertyName = 
+            de.dummy.entity.view.TestDateProperties.id) 
+            ID,
+    @de.dummy.table.ColumnBinding(propertyName = 
+            de.dummy.entity.view.TestDateProperties.name) 
+            NAME,
+
+}    
